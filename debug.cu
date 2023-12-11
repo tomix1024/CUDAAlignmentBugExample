@@ -14,7 +14,7 @@
 //#define FIX_NO_ADDITIONAL_MEMBER // HARD_MODE_NO_ALIGNAS -> misaligned addresses!
 //#define FIX_ASSIGNMENT_OPERATOR
 //#define FIX_STATE_64BIT
-#define FIX_STATE_16BIT
+//#define FIX_STATE_16BIT
 #include "persistentdata.h"
 
 
