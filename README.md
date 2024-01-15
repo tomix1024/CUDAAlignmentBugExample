@@ -23,3 +23,12 @@ data: 0x1 0xffffffff 0x0 0x0 0x3 0xffffffff 0xffffffff 0xffffffff
 ```
 
 There are various `#defines` commented out in `debug.cu`, each of them will resolve the issue, but the original code should work as well.
+
+
+### Update
+
+`run.sh` now runs all the relevant define-variants.
+The output I got on various GPUs are available in the `output-GPUNAME.log` files, which have been produced via
+```bash
+./run.sh > output-GPUNAME.log
+```
